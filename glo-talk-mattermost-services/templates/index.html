@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Glo Talk | Self-Hosted Mattermost Setup for Teams</title>
+  <meta name="description" content="Glo Talk helps businesses replace Slack and Microsoft Teams with secure, private, self-hosted Mattermost collaboration platforms.">
+  <meta name="keywords" content="Glo Talk, Mattermost setup, self-hosted chat, Slack alternative, Teams alternative, Kenya IT services">
+  <link rel="canonical" href="https://example.com/">
+  <meta property="og:title" content="Glo Talk | Self-Hosted Mattermost Setup for Teams">
+  <meta property="og:description" content="Professional Mattermost setup and support for private team communication.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/">
+  <meta property="og:image" content="{{ url_for('static', filename='images/logo.svg') }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Glo Talk | Self-Hosted Mattermost Setup for Teams">
+  <meta name="twitter:description" content="Replace expensive chat subscriptions with your own private collaboration server.">
+  <link rel="icon" href="{{ url_for('static', filename='images/favicon.svg') }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <script src="{{ url_for('static', filename='js/main.js') }}" defer></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a class="brand" href="{{ url_for('index') }}" aria-label="Glo Talk home"><img src="{{ url_for('static', filename='images/logo.svg') }}" alt="Glo Talk logo"></a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu"><span></span><span></span><span></span></button>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#top">Home</a><a href="#features">Features</a><a href="#packages">Packages</a><a href="#process">Process</a><a href="#faq">FAQ</a><a href="{{ url_for('contact') }}">Contact</a>
+        <a class="btn btn-primary nav-cta" href="{{ url_for('payment') }}">Get Installation Quote</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-pad">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Professional Mattermost setup and support</p>
+          <h1>Own Your Team Communication with Self-Hosted Mattermost</h1>
+          <p class="hero-text">Glo Talk helps your business replace expensive chat subscriptions with a secure, private, self-hosted collaboration platform configured for your team.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#packages">View Packages</a><a class="btn btn-secondary" href="{{ url_for('payment') }}">Request Setup</a></div>
+          <p class="microcopy">Mattermost is an open-source collaboration platform. Glo Talk helps businesses deploy and manage it professionally.</p>
+        </div>
+        <div class="hero-visual reveal" aria-label="Illustration of a secure Mattermost team chat setup">
+          <div class="chat-window">
+            <div class="chat-sidebar"><span class="dot green"></span><strong>Glo Team</strong><p># leadership</p><p># projects</p><p># support</p><p># training</p></div>
+            <div class="chat-main"><div class="chat-top"><span>Private Collaboration Hub</span><span class="lock">🔒</span></div><div class="message"><b>Admin</b><p>SSL, backups, and users are configured.</p></div><div class="message alt"><b>Team Lead</b><p>Channels are ready for onboarding.</p></div><div class="admin-card"><span>Server health</span><strong>Secure • Online</strong></div></div>
+          </div>
+          <div class="server-badge">Private server</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits container" aria-label="Key benefits">
+      <article>Private team communication</article><article>Lower long-term costs</article><article>Full data ownership</article><article>Professional installation</article><article>Secure server setup</article><article>Admin training included</article>
+    </section>
+
+    <section class="section-pad" id="problem">
+      <div class="container split-grid">
+        <div><p class="eyebrow">The challenge</p><h2>Slack and Teams are powerful, but they are not always the best fit.</h2><p>As teams grow, subscription costs, compliance needs, and data-control expectations can change. Some organizations need private hosting, simpler dedicated collaboration, or more control over how their communication infrastructure is managed.</p></div>
+        <ul class="check-list muted-card"><li>Monthly subscriptions can become expensive as user counts increase.</li><li>Communication data may live outside your preferred infrastructure.</li><li>Vendor lock-in can limit long-term flexibility.</li><li>Compliance or internal policies may require private hosting.</li><li>Some teams need a focused collaboration tool without extra complexity.</li></ul>
+      </div>
+    </section>
+
+    <section class="section-pad section-blue">
+      <div class="container split-grid reverse">
+        <div class="solution-panel"><span>Channels</span><span>Direct messages</span><span>File sharing</span><span>Notifications</span><span>Backups</span><span>Security</span></div>
+        <div><p class="eyebrow">The Glo Talk solution</p><h2>Glo Talk gives your team a private collaboration hub.</h2><p>Glo Talk helps your team install, configure, and manage Mattermost with team spaces, departments, admin access, onboarding, backup planning, and security configuration for dependable internal communication.</p><a class="btn btn-primary" href="{{ url_for('contact') }}">Talk to an expert</a></div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="features">
+      <div class="container"><div class="section-heading"><p class="eyebrow">Services</p><h2>Everything needed for a professional self-hosted launch.</h2></div>
+        <div class="card-grid three">
+          <article class="feature-card"><h3>Self-hosted Mattermost setup</h3><p>Clean installation and configuration for your team environment.</p></article>
+          <article class="feature-card"><h3>Domain and SSL configuration</h3><p>Connect your domain and secure traffic with HTTPS.</p></article>
+          <article class="feature-card"><h3>Team and channel setup</h3><p>Organize departments, projects, and permission-ready spaces.</p></article>
+          <article class="feature-card"><h3>User onboarding</h3><p>Help staff join confidently with simple onboarding support.</p></article>
+          <article class="feature-card"><h3>Admin training</h3><p>Teach your admins the daily controls they need to operate well.</p></article>
+          <article class="feature-card"><h3>Backup configuration</h3><p>Plan recovery-ready backups for safer operations.</p></article>
+          <article class="feature-card"><h3>Security hardening</h3><p>Apply practical controls for a safer private server.</p></article>
+          <article class="feature-card"><h3>Migration guidance</h3><p>Plan moves from Slack or Microsoft Teams with reduced disruption.</p></article>
+          <article class="feature-card"><h3>Ongoing support</h3><p>Maintenance options for updates, monitoring, and troubleshooting.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad section-soft" id="packages">
+      <div class="container"><div class="section-heading"><p class="eyebrow">Packages</p><h2>Choose a setup path that matches your team size.</h2></div>
+        <div class="pricing-grid">
+          <article class="price-card"><h3>Starter Setup</h3><p>Best for small teams testing self-hosted collaboration.</p><strong>From KSh 25,000</strong><ul><li>Mattermost installation</li><li>Basic server setup</li><li>Domain connection</li><li>SSL certificate setup</li><li>Up to 25 users</li><li>Basic admin training</li><li>7 days post-installation support</li></ul><a class="btn btn-secondary" href="{{ url_for('payment', package='starter') }}">Start with Starter</a></article>
+          <article class="price-card featured"><span class="badge">Popular</span><h3>Business Setup</h3><p>Best for growing teams that need a professional internal communication system.</p><strong>From KSh 55,000</strong><ul><li>Everything in Starter</li><li>Up to 100 users</li><li>Department/channel structure</li><li>User onboarding support</li><li>Backup setup</li><li>Basic security hardening</li><li>Email notification configuration</li><li>14 days support</li></ul><a class="btn btn-primary" href="{{ url_for('payment', package='business') }}">Choose Business</a></article>
+          <article class="price-card"><h3>Enterprise Setup</h3><p>Best for organizations that need advanced control, security, and support.</p><strong>Custom Quote</strong><ul><li>Everything in Business</li><li>100+ users</li><li>Advanced security configuration</li><li>Migration support from Slack/Teams</li><li>Custom integrations consultation</li><li>Monitoring recommendations</li><li>Admin documentation</li><li>30 days support</li></ul><a class="btn btn-secondary" href="{{ url_for('payment', package='enterprise') }}">Request Custom Quote</a></article>
+        </div>
+        <div class="addons"><h3>Optional add-ons</h3><span>Monthly maintenance</span><span>Server monitoring</span><span>Migration support</span><span>Custom integrations</span><span>Staff training</span><span>Documentation package</span><span>Dedicated support</span></div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="process"><div class="container"><div class="section-heading"><p class="eyebrow">Process</p><h2>A clear path from discovery to adoption.</h2></div><div class="steps"><article><b>1</b><h3>Discovery call</h3><p>Understand your users, goals, compliance needs, and migration plans.</p></article><article><b>2</b><h3>Server and domain preparation</h3><p>Prepare hosting, DNS, SSL, and email notification requirements.</p></article><article><b>3</b><h3>Mattermost installation</h3><p>Install and configure a stable self-hosted Mattermost environment.</p></article><article><b>4</b><h3>Team onboarding and training</h3><p>Guide users and admins so adoption starts smoothly.</p></article><article><b>5</b><h3>Support and optimization</h3><p>Review, tune, document, and support the setup after launch.</p></article></div></div></section>
+
+    <section class="section-pad section-blue"><div class="container"><div class="section-heading"><p class="eyebrow">Comparison</p><h2>Balanced options for different communication needs.</h2></div><div class="table-wrap"><table><thead><tr><th>Feature</th><th>Slack/Teams subscription</th><th>Glo Talk Self-hosted Setup</th></tr></thead><tbody><tr><td>Monthly user-based billing</td><td>Common subscription model</td><td>Service setup fee with optional maintenance</td></tr><tr><td>Data ownership</td><td>Hosted by the platform provider</td><td>Hosted on infrastructure you control</td></tr><tr><td>Private hosting</td><td>Depends on plan and provider options</td><td>Designed for private self-hosting</td></tr><tr><td>Custom server control</td><td>Limited</td><td>High control over server choices</td></tr><tr><td>Long-term cost control</td><td>Scales with seats and plan tiers</td><td>Predictable infrastructure and support planning</td></tr><tr><td>Admin flexibility</td><td>Strong within provider settings</td><td>Flexible server and app configuration</td></tr><tr><td>Migration support</td><td>Varies by provider and tooling</td><td>Guided planning and support available</td></tr><tr><td>Local setup support</td><td>Usually partner-dependent</td><td>Glo Talk provides practical setup support</td></tr></tbody></table></div></div></section>
+
+    <section class="section-pad"><div class="container"><div class="section-heading"><p class="eyebrow">Use cases</p><h2>Built for organizations that value control.</h2></div><div class="card-grid four"><article>Remote teams</article><article>Training institutions</article><article>NGOs</article><article>Software teams</article><article>Consulting firms</article><article>Internal company communication</article><article>Communities and cohorts</article><article>Project-based teams</article></div></div></section>
+
+    <section class="section-pad" id="faq"><div class="container narrow"><div class="section-heading"><p class="eyebrow">FAQ</p><h2>Questions before you move to self-hosted collaboration.</h2></div>
+      <details open><summary>What is Mattermost?</summary><p>Mattermost is an open-source collaboration platform for team messaging, channels, file sharing, and workplace communication.</p></details>
+      <details><summary>Is Glo Talk the same as Mattermost?</summary><p>No. Glo Talk is a professional service provider. We help businesses install, configure, secure, migrate to, and manage self-hosted Mattermost.</p></details>
+      <details><summary>Do I need my own server?</summary><p>You can use an existing server, request help choosing one, or ask us to guide hosting preparation during discovery.</p></details>
+      <details><summary>Can you help us buy or configure a server?</summary><p>Yes. We can recommend server requirements, help configure the environment, and prepare it for Mattermost deployment.</p></details>
+      <details><summary>Can we use our own domain?</summary><p>Yes. We configure your chosen domain and SSL certificate so your team can access a professional secure URL.</p></details>
+      <details><summary>Can we migrate from Slack or Teams?</summary><p>Yes. We provide migration guidance and planning. The exact approach depends on your current exports, channels, files, and user needs.</p></details>
+      <details><summary>Is it secure?</summary><p>Self-hosting gives you more control, and Glo Talk applies practical security hardening, HTTPS, admin guidance, and backup planning.</p></details>
+      <details><summary>Do you provide training?</summary><p>Yes. Packages include admin training, and optional staff training can be added for larger teams.</p></details>
+      <details><summary>Do you offer monthly support?</summary><p>Yes. Monthly maintenance, monitoring, updates, and dedicated support can be added after installation.</p></details>
+      <details><summary>Can this work for schools or communities?</summary><p>Yes. Schools, cohorts, NGOs, communities, and training institutions can use private Mattermost spaces for organized communication.</p></details>
+    </div></section>
+
+    <section class="final-cta section-pad"><div class="container"><h2>Ready to own your team communication?</h2><p>Replace expensive chat subscriptions with your own private collaboration server, professionally configured by Glo Talk.</p><a class="btn btn-primary" href="{{ url_for('payment') }}">Get Installation Quote</a><a class="btn btn-light" href="{{ url_for('pricing') }}">View Packages</a></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-grid"><div><img src="{{ url_for('static', filename='images/logo.svg') }}" alt="Glo Talk logo"><p>Glo Talk helps businesses deploy and manage self-hosted Mattermost professionally.</p></div><div><h3>Quick links</h3><a href="#features">Features</a><a href="{{ url_for('pricing') }}">Packages</a><a href="#process">Process</a><a href="#faq">FAQ</a></div><div><h3>Services</h3><a href="#features">Installation</a><a href="#features">Migration support</a><a href="#features">Security hardening</a><a href="#features">Admin training</a></div><div><h3>Contact</h3><p>Email: hello@example.com</p><p>Phone: +254 700 000 000</p><p>Nairobi, Kenya</p></div></div><div class="container footer-bottom">© <span data-current-year></span> Glo Talk. All rights reserved.</div></footer>
+</body>
+</html>
